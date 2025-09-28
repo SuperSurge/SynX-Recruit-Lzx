@@ -8,10 +8,10 @@ int main()
     int player_score = 0, computer_score = 0;
     srand(time(NULL));
 
-    printf("=== 猜拳游戏 (五局三胜) ===\n");
+    printf("=== 猜拳游戏 (三局两胜) ===\n");
     printf("0-石头, 1-剪刀, 2-布\n");
 
-    while (player_score < 3 && computer_score < 3)
+    while (player_score < 2 && computer_score < 2)
     {
         printf("\n当前比分: 玩家 %d - %d 电脑\n", player_score, computer_score);
         printf("请出拳: ");
